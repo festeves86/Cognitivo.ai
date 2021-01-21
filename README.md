@@ -24,16 +24,16 @@ e. Quais evidências você possui de que seu modelo é suficientemente bom?
 
 O modelo chegou a um f1-score de 100% na predição dos diferentes room_types conforme matriz de classificação abaixo.
 
-		precision    recall  f1-score   support
-
-  Entire_Apt       1.00      1.00      1.00      3692
-  Hotel_Room       1.00      1.00      1.00        16
-Private_Room       1.00      1.00      1.00      1282
- Shared_Room       1.00      1.00      1.00       110
-
-    accuracy                           1.00      5100
-   macro avg       1.00      1.00      1.00      5100
-weighted avg       1.00      1.00      1.00      5100
+|                | precision | recall | f1-score | support |
+|----------------|-----------|--------|----------|---------|
+|     Entire_Apt | 1         | 1      | 1        | 3692    |
+|     Hotel_Room | 1         | 1      | 1        | 16      |
+| Private_Room   | 1         | 1      | 1        | 1282    |
+|  Shared_Room   | 1         | 1      | 1        | 110     |
+|                |           |        |          |         |
+|       accuracy |           |        | 1        | 5100    |
+|      macro avg | 1         | 1      | 1        | 5100    |
+| weighted avg   | 1         | 1      | 1        | 5100    |
 
 Ainda olhand a confusion matrix verificamos que o modelo apenas se enganou 3 vezes em uma amostra de 5100
 
