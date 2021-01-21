@@ -37,7 +37,7 @@ O modelo chegou a um f1-score de 100% na predição dos diferentes room_types co
 
 Ainda olhand a confusion matrix verificamos que o modelo apenas se enganou 3 vezes em uma amostra de 5100
 
-[[3690    0    2    0]
- [   0   16    0    0]
- [   1    0 1281    0]
- [   0    0    0  110]]
+| 3960 | 0  | 2    | 0   |
+| 0    | 16 | 0    | 0   |
+| 1    | 0  | 1281 | 0   |
+| 0    | 0  | 0    | 110 |
