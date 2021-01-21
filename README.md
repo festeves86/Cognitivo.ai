@@ -6,7 +6,7 @@ A estratégia de modelagem partiu de uma análise exploratoria para determinacao
 
 b. Como foi definida a função de custo utilizada?
 
-A funcao de custo utilizada foi a binary crossentropy que é suitable para responder questoes de sim ou não.
+A funcao de custo utilizada foi a binary crossentropy que é suitable para problemas de classificação.
 
 c. Qual foi o critério utilizado na seleção do modelo final?
 
